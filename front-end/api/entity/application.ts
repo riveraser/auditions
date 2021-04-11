@@ -52,7 +52,7 @@ export class ApplicationResolver {
   }
 
   @Query(() => Application)
-  application(@Arg('id') id: string): Promise<Application> {
+  application(@Arg('id', () => ID) id: string): Promise<Application> {
     return Application.findOneOrFail(id)
   }
 
