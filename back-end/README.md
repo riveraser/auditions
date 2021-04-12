@@ -87,3 +87,7 @@ The parameter filename will simply be the path to a local file that contains the
 You can assume you are submitting a PR for a feature that will go into production. You may use any library or tool available to you to solve this task.
 
 You will own this process and will be responsible for future expansions to the code. You should solve the problem as described but you are encouraged to be forward-thinking and advocate for any changes or demonstrate any practices that would improve the process (such as a change in log format, a change in the class interface, etc.). While the sample log file is small, production log files are likely to be very large, and Spacely's Sprockets will be adding more sensor types (for example, a noise level detector) in the future.
+
+## Testing
+
+We've set up a small test harness you can use - just run `npm test` and see how you do!
