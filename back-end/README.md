@@ -50,6 +50,7 @@ For example:
 2020-01-01T01:00 100
 
 Sample Input Log
+```
 reference loudness 5 bumpiness 10 happiness 5
 loudness 184744bf-6439-4c9b-aeba-42e8fb6a214d
 2007-04-05T22:00 3
@@ -66,12 +67,15 @@ happiness f8aa668d-96b6-4f64-8179-505fa291ebd3
 bumpiness f8aa668d-96b6-4f64-8179-505fa291ebd3
 2007-04-05T22:00 7
 2007-04-05T22:01 9
+```
 
 Sample Output
+```
 {
 "f8aa668d-96b6-4f64-8179-505fa291ebd3": ["loudness"],
 "184744bf-6439-4c9b-aeba-42e8fb6a214d": ["happiness"]
 }
+```
 
 You have been tasked with creating a solution that takes the contents of a log file, and outputs the devices and their classification, as per the sample output above.
 
