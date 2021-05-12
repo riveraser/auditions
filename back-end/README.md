@@ -1,3 +1,22 @@
+# Project code solution
+
+Please, go to `/back-end` folder, then run `npm install` to setup the project and `npm start -- --filename your-file-location.log` 
+
+example:
+`npm start -- --filename __tests__/test-1.log` will parse the logs included in the test folder (in a normal javascript just pass `index.js --filename _____`)
+
+
+I don't know (because it was not specified) if I did have to code a REST API solution to generate the logs: I did a command line solution but the main code can be ported to an Express server if needed!
+
+And I guess I read too late the _PR for a feature_ below I did work directly in *dev* instead of *main* but to change this file I did create a "feature" that should create a PR to DEV and then DEV to MAIN
+
+Thanks:
+
+### Solution by
+*Sergio Rivera Morales*
+sergi.erm@gmail.com
+
+
 # Engineering Audition
 
 Spacely's Sprockets is building the future of Electric Vehicles! We're including sensors all over our vehicles to make sure they perform at their best all the time! These sensors sample different aspects of the car to ensure everything is within expectations.

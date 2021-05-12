@@ -1,0 +1,20 @@
+{
+  "loudness": {
+    "thresholds": 0,
+    "method": "standard",
+    "base": 2,
+    "operator": "<"
+  },
+  "bumpiness": {
+    "thresholds": 0,
+    "method": "average",
+    "base": 1.5,
+    "operator": ">"
+  },
+  "happiness": {
+    "thresholds": 0,
+    "method": "sum",
+    "base": 1.2,
+    "operator": ">"
+  }
+}
