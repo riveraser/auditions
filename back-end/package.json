@@ -9,5 +9,8 @@
   "scripts": {
     "start": "ts-node src/main.ts",
     "test": "jest"
+  },
+  "devDependencies": {
+    "yargs": "^17.0.1"
   }
 }
